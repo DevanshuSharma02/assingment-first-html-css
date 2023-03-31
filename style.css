@@ -338,6 +338,13 @@ body {
     gap: 3vh;
 }
 
+.info-sec-data{
+    display: flex;
+    height: 5vh;
+}
+.info-sec-data img{
+    width: 8vh;
+}
 .About-images {
     display: flex;
     width: 50%;
@@ -1004,7 +1011,8 @@ background-color: #3278ff;
     align-items: center;
 }
 .mobile-option{
-    background-color: #3278ff;
+    background-color: #ffffff;
+    color: black;
      margin-top: 500px;
      margin-right:40px;
      font-size: 30px;
@@ -1101,6 +1109,7 @@ line-height: 49px;
 .enter-city,#first-select-option,#sec-select-option{
     width: 100%;
     height: 50%;
+    padding: 10px;
     margin-top: 10px;
 }
 .enter-city{
@@ -1112,6 +1121,16 @@ line-height: 49px;
     margin-bottom: 10px;
 }
 
+.info-sec-data{
+
+    height: 3.5vh;
+}
+.info-sec-data img{
+    width: 7vh;
+    height: 5vh;
+    padding: 1px !important;
+    margin-top: -12px;
+}
 
 /**//**/
 .About-Us-container{
